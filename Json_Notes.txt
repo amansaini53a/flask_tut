@@ -1,0 +1,35 @@
+JOSN :: javascript object Notation
+JSON is syntax for storing and exchanging data
+Data is placed in the form of Key-value pairs
+Value:: can be a array
+Value:: can have further key value(Call it Object).
+____________
+jsonpath.com
+------------
+{
+    "Name": "Aman Saini",
+    "Age" : 30,
+    "PhoneNumber" : "+91-9731-4220-96"
+    # Array
+    "City" : ["Naraingarh", "Chandigarh", "Bangalore"]
+    Objects
+    "Address" :
+        {
+            "StreetName" : "Naveen Colony",
+            "HouseNumber" : "#46"
+            "City" : "Naraingarh",
+            "Number":
+                {
+                    "LandLine" : "01744-284951",
+                    "Mobile-1": "+91-9731-4220-96"
+                }
+        }
+}
+Paths:::
+$.City[0] # Index can be 0,1,2.
+$.Address.HouseNumber
+$.Address.Number.Moblie-1
+
+
+
+

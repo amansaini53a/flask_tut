@@ -1,0 +1,14 @@
+# Version for docker compose.
+version: '3'
+
+services:
+  web:
+    build: ./web
+# Build the service web from the Directory ./web
+    ports:
+    -  "5000:5000"
+
+
+#  db:
+#    build:
+#      ./db
